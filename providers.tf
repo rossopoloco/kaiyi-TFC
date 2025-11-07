@@ -4,8 +4,8 @@ terraform {
     aws = { source = "hashicorp/aws", version = "~> 5.0" }
   }
   cloud {
-    orgnization = "your-org" #TFC里面的org名称
-    workspaces { name = "demo-dev" }
+    orgnization = "rosso" #TFC里面的org名称
+    workspaces { name = "kaiyi-TFC" }
   }
 
   providers "aws" {
